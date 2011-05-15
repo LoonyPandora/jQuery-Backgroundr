@@ -1,11 +1,11 @@
 /*
  * jQuery Backgroundr
  * Version 0.1.0
- * http://github.com/loonypandora
+ * https://github.com/LoonyPandora/jQuery-Backgroundr
  *
  * Add a dynamically-resized background image to any element.
  * Based on "Backstretch" and "Supersized" jQuery plugins.
- * I suggest you use one of those plugins, this isn't supported
+ * I suggest you use one of those plugins, they are better supported
  *
  * Copyright (c) 2011 James Aitken (loonypandora.co.uk)
  * Dual licensed under the MIT and GPL licenses.
