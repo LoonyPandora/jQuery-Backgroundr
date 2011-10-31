@@ -1,3 +1,28 @@
+DEPRECATED
+==========
+
+This plugin is deprecated, and should not be used.
+
+CSS3 can create this same effect, and is supported in modern versions Firefox, Safari, Chrome, and Opera. It is even supported in IE9!
+
+The following CSS should do the trick. The relevant CSS being `background-size: cover` and the vendor-prefixed versions for really old brwosers. This will scale the image to fill the whole of it's container, while keeping the aspect ratio the same. the ``background-position: left center;`` can be adjusted to taste. 
+
+
+``` css
+#selector {
+  background-image:      url('/path/to/images');
+  background-repeat:     no-repeat;
+  background-position:   left center;
+  background-attachment: fixed;
+  
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+```
+
+
 About
 =====
 
